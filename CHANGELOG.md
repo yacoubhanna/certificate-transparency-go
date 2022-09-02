@@ -62,8 +62,6 @@ clients and proxies to cache these responses for up to 24 hours.
 
 #### EKU Filtering
 
-> :warning: **It is not yet recommended to enable this option in a production CT Log!**
-
 CTFE now supports filtering logging submissions by leaf certificate EKU.
 This is enabled by adding an extKeyUsage list to a log's stanza in the
 config file.
